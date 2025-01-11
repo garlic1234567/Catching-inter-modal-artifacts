@@ -3,20 +3,20 @@ This is the repository for the paper "Catching Inter-Modal Artifacts: A Cross-Mo
 
 # Dependency
 The following dependencies are required to run the code:
-Linux
-Python 3.8
-Pytorch 1.13
-Numpy 
-PyYaml
-Pandas
-h5py
-joblib
-einops
+- Linux
+- Python 3.8
+- Pytorch 1.13
+- Numpy
+- PyYaml
+- Pandas
+- h5py
+- joblib
+- einops
 
 ## Dataset
 We conduct experiments on the following datasets:
-1. TFL Benchmark Dataset Lav-DF: This dataset is used to evaluate our model for Temporal Forgery Localization (TFL). We preprocess this dataset in the same manner as our baseline model, UMMAFormer.
-2. DGM4 Dataset: Used to validate the cross-modal generalizability of the proposed BRM and DFFM modules. All the configurations are the same to HAMMER.
+1. TFL Benchmark Dataset Lav-DF: This dataset is used to evaluate our model for Temporal Forgery Localization (TFL). We preprocess this dataset in the same manner as our baseline model, UMMAFormer(https://github.com/ymhzyj/UMMAFormer).
+2. DGM4 Dataset: Used to validate the cross-modal generalizability of the proposed BRM and DFFM modules. All the configurations are the same to HAMMER(https://github.com/rshaojimmy/MultiModal-DeepFake).
 
 ## Reproduction on DGM4
 We provide our code of reproducting CLIP, ViLT and HAMMER on the DGM4 dataset. 
@@ -43,7 +43,9 @@ sh my_train.sh
 ```
 ### Testing
 To test our model:
+```
 sh my_test.sh
+```
 
 
 
