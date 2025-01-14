@@ -2,24 +2,16 @@
 This is the repository for the paper "Catching Inter-Modal Artifacts: A Cross-Modal Framework for Temporal Forgery Localization".
 
 # Dependency
-The following dependencies are required to run the code:
-- Linux
-- Python 3.8
-- Pytorch 1.13
-- Numpy
-- PyYaml
-- Pandas
-- h5py
-- joblib
-- einops
+Since we build on the UMMAFormer (Zhang et al.,2023) framework for our approach, please refer to [UMMAFormer repository](https://github.com/ymhzyj/UMMAFormer) for detailed dependencies required to reproduce our Cross-Modal Framework designed for the TFL task. <br>
+For experiments validating the generalizability of the proposed modules, we replace the original alignment and fusion operation in HAMMER with our BRM and DFFM, respectively. Detailed installation instructions can be found in the [HAMMER repository](https://github.com/rshaojimmy/MultiModal-DeepFake).
 
 ## Dataset
 We conduct experiments on the following datasets:
-1. TFL Benchmark Dataset Lav-DF: This dataset is used to evaluate our model for Temporal Forgery Localization (TFL). We preprocess this dataset in the same manner as our baseline model, UMMAFormer(https://github.com/ymhzyj/UMMAFormer).
-2. DGM4 Dataset: Used to validate the cross-modal generalizability of the proposed BRM and DFFM modules. All the configurations are the same to HAMMER(https://github.com/rshaojimmy/MultiModal-DeepFake).
+1. TFL Benchmark Dataset Lav-DF: This dataset is used to evaluate our model for Temporal Forgery Localization (TFL). We preprocess this dataset in the same manner as our baseline model [UMMAFormer](https://github.com/ymhzyj/UMMAFormer).
+2. DGM4 Dataset: Used to validate the cross-modal generalizability of the proposed BRM and DFFM modules. All the configurations are the same to [HAMMER](https://github.com/rshaojimmy/MultiModal-DeepFake).
 
 ## Reproduction on DGM4
-In the [reproduction](./reproduction) folder, we provide the implementation for reproducting the performance of CLIP, ViLT and HAMMER on the DGM4 dataset. 
+In the [reproduction](./reproduction) folder, we provide the implementation for replicating the experimental results of CLIP, ViLT, and HAMMER on the DGM4 dataset, as reported in our paper.
 
 ### Experimental Setup
 - Hardware: All the three methods are reproduced on 2 A6000 GPUs.
@@ -30,11 +22,13 @@ In the [reproduction](./reproduction) folder, we provide the implementation for 
 ### Training
 To train our model for Temporal Forgery Localization (TFL):
 ```
+cd /TFL
 python ./train.py -config ./configs/lavdf_tsn_byola.yaml
 ```
 ### Testing
 To test our model for TFL:
 ```
+cd /TFL
 python ./eval.py ./configs/lavdf_tsn_byola.yaml ./paper_results/your_ckpt_folder/model_best.pth.tar
 ```
 Replace your_ckpt_folder with the folder containing your model checkpoint.
