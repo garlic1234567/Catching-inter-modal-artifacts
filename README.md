@@ -19,7 +19,12 @@ We conduct experiments on the following datasets:
 2. DGM4 Dataset: Used to validate the cross-modal generalizability of the proposed BRM and DFFM modules. All the configurations are the same to HAMMER(https://github.com/rshaojimmy/MultiModal-DeepFake).
 
 ## Reproduction on DGM4
-In the folder named [reproduction](./reproduction), we provide our code of reproducting CLIP, ViLT and HAMMER on the DGM4 dataset. We directly use the official code of HAMMER provided in [here](https://github.com/rshaojimmy/MultiModal-DeepFake), but train the model on 2 A6000 GPUs. 
+In the [reproduction](./reproduction) folder, we provide the implementation for reproducting the performance of CLIP, ViLT and HAMMER on the DGM4 dataset. 
+
+### Experimental Setup
+- Hardware: All the three methods are reproduced on 2 A6000 GPUs.
+- HAMMER: For reproducing HAMMER, we directly use the official implementation of HAMMER provided in [HAMMER repository](https://github.com/rshaojimmy/MultiModal-DeepFake).
+- CLIP and ViLT: The reproduction of CLIP and ViLT is based on the methodology described in Section 5.1 of the paper *Detecting and Grounding Multi-Modal Media Manipulation*. 
 
 ## Training and Testing for TFL
 ### Training
