@@ -2,8 +2,8 @@
 This is the repository for the paper "Catching Inter-Modal Artifacts: A Cross-Modal Framework for Temporal Forgery Localization".
 
 # Dependency
-Since we build on the UMMAFormer (Zhang et al.,2023) framework for our approach, please refer to [UMMAFormer repository](https://github.com/ymhzyj/UMMAFormer) for detailed dependencies required to reproduce our Cross-Modal Framework designed for the TFL task. <br>
-For experiments validating the generalizability of the proposed modules, we replace the original alignment and fusion operation in HAMMER with our BRM and DFFM, respectively. Detailed installation instructions can be found in the [HAMMER repository](https://github.com/rshaojimmy/MultiModal-DeepFake).
+Since we build on the UMMAFormer (Zhang et al.,2023) framework for our TFL framework, please refer to [UMMAFormer repository](https://github.com/ymhzyj/UMMAFormer) for detailed dependencies required to reproduce our Cross-Modal Framework designed for the TFL task. <br> <br>
+For experiments validating the generalizability of the proposed modules, since we replace the original alignment and fusion operation in HAMMER with our BRM and DFFM, respectively, please refer to [HAMMER repository](https://github.com/rshaojimmy/MultiModal-DeepFake) for detailed installation instructions.
 
 ## Dataset
 We conduct experiments on the following datasets:
@@ -43,6 +43,7 @@ sh my_train.sh
 ### Testing
 To test our model:
 ```
+cd /MultiModal-DeepFake-main
 sh my_test.sh
 ```
 
