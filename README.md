@@ -113,9 +113,6 @@ In the [reproduction](./reproduction) folder, we provide the implementation for 
     <td class="xl69" x:num="70.629999999999995">70.6</td>
     <td class="xl69" x:num="71.569999999999993">71.6</td>
    </tr>
-   <tr height="24" style="height:14.40pt;mso-height-source:userset;mso-height-alt:288;">
-    <td class="xl70" height="24" colspan="14" style="height:14.40pt;border-right:none;border-bottom:none;" x:str=""><span style="mso-spacerun:yes;">&nbsp;</span></td>
-   </tr>
    <!--[if supportMisalignedColumns]-->
     <tr width="0" style="display:none;">
      <td width="93" style="width:56;"></td>
