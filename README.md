@@ -14,54 +14,57 @@ We conduct experiments on the following datasets:
 In the [reproduction](./reproduction) folder, we provide the implementation for replicating the experimental results of CLIP, ViLT, and HAMMER on the DGM4 dataset, as reported in our paper.
 
 <table width="722.00" border="0" cellpadding="0" cellspacing="0" style="width:433.20pt;border-collapse:collapse;table-layout:fixed;">
-   <colgroup><col width="93.00" style="mso-width-source:userset;mso-width-alt:2720;">
-   <col width="50.58" style="mso-width-source:userset;mso-width-alt:1479;">
-   <col width="63.25" style="mso-width-source:userset;mso-width-alt:1850;">
-   <col width="51.50" style="mso-width-source:userset;mso-width-alt:1506;">
-   <col width="51.67" style="mso-width-source:userset;mso-width-alt:1511;">
-   <col width="45.75" span="7" style="mso-width-source:userset;mso-width-alt:1338;">
-   <col width="45.83" style="mso-width-source:userset;mso-width-alt:1340;">
-   <col width="45.92" style="mso-width-source:userset;mso-width-alt:1343;">
-   </colgroup><tbody><tr height="25.25" style="height:15.15pt;mso-height-source:userset;mso-height-alt:303;">
-    <td class="xl65" height="25.25" width="93.00" style="height:15.15pt;width:55.80pt;" x:str="">Categories</td>
-    <td class="xl65" width="50.58" style="width:30.35pt;" x:str="">Ckpt</td>
-    <td class="xl65" width="166.42" colspan="3" style="width:99.85pt;border-right:1.0pt solid windowtext;border-bottom:1.0pt solid windowtext;" x:str="">Binary Cls</td>
-    <td class="xl65" width="137.25" colspan="3" style="width:82.35pt;border-right:1.0pt solid windowtext;border-bottom:1.0pt solid windowtext;" x:str="">Multi-label Cls</td>
-    <td class="xl65" width="137.25" colspan="3" style="width:82.35pt;border-right:1.0pt solid windowtext;border-bottom:1.0pt solid windowtext;" x:str="">Image Grounding</td>
-    <td class="xl65" width="137.50" colspan="3" style="width:82.50pt;border-right:1.0pt solid windowtext;border-bottom:1.0pt solid windowtext;" x:str="">Text Grounding</td>
-   </tr>
-   <tr height="27.33" style="height:16.40pt;mso-height-source:userset;mso-height-alt:328;">
-    <td class="xl66" height="27.33" style="height:16.40pt;" x:str="">Methods</td>
-    <td class="xl66"></td>
-    <td class="xl67" x:str="">AUC</td>
-    <td class="xl67" x:str="">EER</td>
-    <td class="xl67" x:str="">ACC</td>
-    <td class="xl67" x:str="">mAP</td>
-    <td class="xl68" x:str="">CF1</td>
-    <td class="xl68" x:str="">OF1</td>
-    <td class="xl68" x:str="">IoUmean</td>
-    <td class="xl68" x:str="">IoU50</td>
-    <td class="xl68" x:str="">IoU75</td>
-    <td class="xl68" x:str="">Precision</td>
-    <td class="xl68" x:str="">Recall</td>
-    <td class="xl68" x:str="">F1</td>
-   </tr>
-   <tr height="481.25" style="height:288.75pt;">
-    <td class="xl66" height="481.25" style="height:288.75pt;" x:str="">CLIP</td>
-    <td class="xl66" x:str=""><a href="https://1drv.ms/u/c/39d9599dfa883d20/EaaEobf2eGdOvBky9Px3V1MBuwa7oeVlbg3XCQDrzb62cA" target="_blank">ckpt</a></td>
-    <td class="xl67" x:num="">78.33</td>
-    <td class="xl67" x:num="">29.3</td>
-    <td class="xl67" x:num="">72.03</td>
-    <td class="xl67" x:num="62.469999999999999">62.5</td>
-    <td class="xl67" x:num="54.909999999999997">54.9</td>
-    <td class="xl67" x:num="55.060000000000002">55.1</td>
-    <td class="xl67" x:num="44.579999999999998">44.6</td>
-    <td class="xl67" x:num="44.520000000000003">44.5</td>
-    <td class="xl67" x:num="44.509999999999998">44.5</td>
-    <td class="xl67" x:num="56.68">56.7</td>
-    <td class="xl67" x:num="31.170000000000002">31.2</td>
-    <td class="xl67" x:num="40.219999999999999">40.2</td>
-   </tr>
+   <colgroup>
+      <col width="93.00" style="mso-width-source:userset;mso-width-alt:2720;">
+      <col width="50.58" style="mso-width-source:userset;mso-width-alt:1479;">
+      <col width="63.25" style="mso-width-source:userset;mso-width-alt:1850;">
+      <col width="51.50" style="mso-width-source:userset;mso-width-alt:1506;">
+      <col width="51.67" style="mso-width-source:userset;mso-width-alt:1511;">
+      <col width="45.75" span="7" style="mso-width-source:userset;mso-width-alt:1338;">
+      <col width="45.83" style="mso-width-source:userset;mso-width-alt:1340;">
+      <col width="45.92" style="mso-width-source:userset;mso-width-alt:1343;">
+   </colgroup>
+   <tbody>
+      <tr height="25.25" style="height:15.15pt;">
+         <td class="xl65" height="25.25" width="93.00" style="height:15.15pt;width:55.80pt;" x:str="">Categories</td>
+         <td class="xl65" width="50.58" style="width:30.35pt;" x:str="">Ckpt</td>
+         <td class="xl65" width="166.42" colspan="3" style="width:99.85pt;border-right:1.0pt solid windowtext;border-bottom:1.0pt solid windowtext;" x:str="">Binary Cls</td>
+         <td class="xl65" width="137.25" colspan="3" style="width:82.35pt;border-right:1.0pt solid windowtext;border-bottom:1.0pt solid windowtext;" x:str="">Multi-label Cls</td>
+         <td class="xl65" width="137.25" colspan="3" style="width:82.35pt;border-right:1.0pt solid windowtext;border-bottom:1.0pt solid windowtext;" x:str="">Image Grounding</td>
+         <td class="xl65" width="137.50" colspan="3" style="width:82.50pt;border-right:1.0pt solid windowtext;border-bottom:1.0pt solid windowtext;" x:str="">Text Grounding</td>
+      </tr>
+      <tr height="27.33" style="height:15.15pt;">
+         <td class="xl66" height="27.33" style="height:15.15pt;" x:str="">Methods</td>
+         <td class="xl66"></td>
+         <td class="xl67" x:str="">AUC</td>
+         <td class="xl67" x:str="">EER</td>
+         <td class="xl67" x:str="">ACC</td>
+         <td class="xl67" x:str="">mAP</td>
+         <td class="xl68" x:str="">CF1</td>
+         <td class="xl68" x:str="">OF1</td>
+         <td class="xl68" x:str="">IoUmean</td>
+         <td class="xl68" x:str="">IoU50</td>
+         <td class="xl68" x:str="">IoU75</td>
+         <td class="xl68" x:str="">Precision</td>
+         <td class="xl68" x:str="">Recall</td>
+         <td class="xl68" x:str="">F1</td>
+      </tr>
+      <tr height="25.25" style="height:15.15pt;">
+         <td class="xl66" height="25.25" style="height:15.15pt;" x:str="">CLIP</td>
+         <td class="xl66" x:str=""><a href="#" style="text-decoration:none; margin:0; padding:0;">ckpt</a></td>
+         <td class="xl67" x:num="">78.33</td>
+         <td class="xl67" x:num="">29.3</td>
+         <td class="xl67" x:num="">72.03</td>
+         <td class="xl67" x:num="62.469999999999999">62.5</td>
+         <td class="xl67" x:num="54.909999999999997">54.9</td>
+         <td class="xl67" x:num="55.060000000000002">55.1</td>
+         <td class="xl67" x:num="44.579999999999998">44.6</td>
+         <td class="xl67" x:num="44.520000000000003">44.5</td>
+         <td class="xl67" x:num="44.509999999999998">44.5</td>
+         <td class="xl67" x:num="56.68">56.7</td>
+         <td class="xl67" x:num="31.170000000000002">31.2</td>
+         <td class="xl67" x:num="40.219999999999999">40.2</td>
+      </tr>
    <tr height="25.25" style="height:15.15pt;">
     <td class="xl66" height="25.25" style="height:15.15pt;" x:str="">ViLT</td>
     <td class="xl66"></td>
