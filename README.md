@@ -113,18 +113,6 @@ In the [reproduction](./reproduction) folder, we provide the implementation for 
     <td class="xl69" x:num="70.629999999999995">70.6</td>
     <td class="xl69" x:num="71.569999999999993">71.6</td>
    </tr>
-   <!--[if supportMisalignedColumns]-->
-    <tr width="0" style="display:none;">
-     <td width="93" style="width:56;"></td>
-     <td width="51" style="width:30;"></td>
-     <td width="63" style="width:38;"></td>
-     <td width="52" style="width:31;"></td>
-     <td width="52" style="width:31;"></td>
-     <td width="46" style="width:27;"></td>
-     <td width="46" style="width:28;"></td>
-     <td width="46" style="width:28;"></td>
-    </tr>
-   <!--[endif]-->
   </tbody></table>
   
 ### Experimental Setup
