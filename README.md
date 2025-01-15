@@ -51,7 +51,7 @@ In the [reproduction](./reproduction) folder, we provide the implementation for 
       </tr>
       <tr height="25.25" style="height:15.15pt;">
          <td class="xl66" height="25.25" style="height:15.15pt;" x:str="">CLIP</td>
-         <td class="xl66" x:str=""><a href="#" style="text-decoration:none; margin:0; padding:0;">ckpt</a></td>
+         <td class="xl66" x:str=""><a href="https://1drv.ms/u/c/39d9599dfa883d20/EaaEobf2eGdOvBky9Px3V1MBuwa7oeVlbg3XCQDrzb62cA" style="text-decoration:none; margin:0; padding:0;">ckpt</a></td>
          <td class="xl67" x:num="">78.33</td>
          <td class="xl67" x:num="">29.3</td>
          <td class="xl67" x:num="">72.03</td>
