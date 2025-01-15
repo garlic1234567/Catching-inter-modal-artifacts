@@ -48,7 +48,7 @@ In the [reproduction](./reproduction) folder, we provide the implementation for 
    </tr>
    <tr height="481.25" style="height:288.75pt;">
     <td class="xl66" height="481.25" style="height:288.75pt;" x:str="">CLIP</td>
-    <td class="xl66" x:str="">[ckpt](https://1drv.ms/u/c/39d9599dfa883d20/EaaEobf2eGdOvBky9Px3V1MBuwa7oeVlbg3XCQDrzb62cA)</td>
+    <td class="xl66" x:str=""><a href="https://1drv.ms/u/c/39d9599dfa883d20/EaaEobf2eGdOvBky9Px3V1MBuwa7oeVlbg3XCQDrzb62cA" target="_blank">ckpt</a></td>
     <td class="xl67" x:num="">78.33</td>
     <td class="xl67" x:num="">29.3</td>
     <td class="xl67" x:num="">72.03</td>
