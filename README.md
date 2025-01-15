@@ -55,15 +55,15 @@ In the [reproduction](./reproduction) folder, we provide the implementation for 
          <td class="xl67" x:num="">78.33</td>
          <td class="xl67" x:num="">29.30</td>
          <td class="xl67" x:num="">72.03</td>
-         <td class="xl67" x:num="62.47">62.5</td>
-         <td class="xl67" x:num="54.91">54.9</td>
-         <td class="xl67" x:num="55.06">55.1</td>
-         <td class="xl67" x:num="44.58">44.6</td>
-         <td class="xl67" x:num="44.52">44.5</td>
-         <td class="xl67" x:num="44.51">44.5</td>
-         <td class="xl67" x:num="56.68">56.7</td>
-         <td class="xl67" x:num="31.17">31.2</td>
-         <td class="xl67" x:num="40.22">40.2</td>
+         <td class="xl67" x:num="62.47">62.47</td>
+         <td class="xl67" x:num="54.91">54.91</td>
+         <td class="xl67" x:num="55.06">55.06</td>
+         <td class="xl67" x:num="44.58">44.58</td>
+         <td class="xl67" x:num="44.52">44.52</td>
+         <td class="xl67" x:num="44.51">44.51</td>
+         <td class="xl67" x:num="56.68">56.68</td>
+         <td class="xl67" x:num="31.17">31.17</td>
+         <td class="xl67" x:num="40.22">40.22</td>
       </tr>
    <tr height="25.25" style="height:15.15pt;">
     <td class="xl66" height="25.25" style="height:15.15pt;" x:str="">ViLT</td>
@@ -71,15 +71,15 @@ In the [reproduction](./reproduction) folder, we provide the implementation for 
     <td class="xl67" x:num="">85.73</td>
     <td class="xl67" x:num="">22.41</td>
     <td class="xl67" x:num="">79.04</td>
-    <td class="xl67" x:num="72.659999999999997">72.7</td>
-    <td class="xl67" x:num="66.170000000000002">66.2</td>
-    <td class="xl67" x:num="66.109999999999999">66.1</td>
-    <td class="xl67" x:num="54.869999999999997">54.9</td>
-    <td class="xl67" x:num="59.140000000000001">59.1</td>
-    <td class="xl67" x:num="41.479999999999997">41.5</td>
-    <td class="xl67" x:num="66.609999999999999">66.6</td>
-    <td class="xl67" x:num="46.990000000000002">47</td>
-    <td class="xl67" x:num="55.109999999999999">55.1</td>
+    <td class="xl67" x:num="72.659999999999997">72.66</td>
+    <td class="xl67" x:num="66.170000000000002">66.17</td>
+    <td class="xl67" x:num="66.109999999999999">66.11</td>
+    <td class="xl67" x:num="54.869999999999997">54.87</td>
+    <td class="xl67" x:num="59.140000000000001">59.14</td>
+    <td class="xl67" x:num="41.479999999999997">41.48</td>
+    <td class="xl67" x:num="66.609999999999999">66.61</td>
+    <td class="xl67" x:num="46.990000000000002">46.99</td>
+    <td class="xl67" x:num="55.109999999999999">55.11</td>
    </tr>
    <tr height="25.25" style="height:15.15pt;">
     <td class="xl66" height="25.25" style="height:15.15pt;" x:str="">HAMMER</td>
@@ -88,14 +88,14 @@ In the [reproduction](./reproduction) folder, we provide the implementation for 
     <td class="xl67" x:num="">17.11</td>
     <td class="xl67" x:num="">84.18</td>
     <td class="xl67" x:num="">83.2</td>
-    <td class="xl67" x:num="76.709999999999994">76.7</td>
-    <td class="xl67" x:num="77.010000000000005">77</td>
-    <td class="xl67" x:num="74.640000000000001">74.6</td>
-    <td class="xl67" x:num="81.689999999999998">81.7</td>
-    <td class="xl67" x:num="74.560000000000002">74.6</td>
-    <td class="xl69" x:num="74.739999999999995">74.7</td>
-    <td class="xl67" x:num="63.460000000000001">63.5</td>
-    <td class="xl67" x:num="68.640000000000001">68.6</td>
+    <td class="xl67" x:num="76.709999999999994">76.71</td>
+    <td class="xl67" x:num="77.010000000000005">77.01</td>
+    <td class="xl67" x:num="74.640000000000001">74.64</td>
+    <td class="xl67" x:num="81.689999999999998">81.69</td>
+    <td class="xl67" x:num="74.560000000000002">74.56</td>
+    <td class="xl69" x:num="74.739999999999995">74.74</td>
+    <td class="xl67" x:num="63.460000000000001">63.46</td>
+    <td class="xl67" x:num="68.640000000000001">68.64</td>
    </tr>
    <tr height="25.25" style="height:15.15pt;">
     <td class="xl66" height="25.25" style="height:15.15pt;" x:str="">Ours</td>
@@ -103,15 +103,15 @@ In the [reproduction](./reproduction) folder, we provide the implementation for 
     <td class="xl69" x:num="">93.59</td>
     <td class="xl69" x:num="">14.22</td>
     <td class="xl69" x:num="">86.92</td>
-    <td class="xl69" x:num="85.120000000000005">85.1</td>
-    <td class="xl69" x:num="78.670000000000002">78.7</td>
-    <td class="xl69" x:num="79.280000000000001">79.3</td>
-    <td class="xl69" x:num="76.469999999999999">76.5</td>
-    <td class="xl69" x:num="83.379999999999995">83.4</td>
-    <td class="xl69" x:num="76.450000000000003">76.5</td>
-    <td class="xl67" x:num="72.540000000000006">72.5</td>
-    <td class="xl69" x:num="70.629999999999995">70.6</td>
-    <td class="xl69" x:num="71.569999999999993">71.6</td>
+    <td class="xl69" x:num="85.120000000000005">85.12</td>
+    <td class="xl69" x:num="78.670000000000002">78.76</td>
+    <td class="xl69" x:num="79.280000000000001">79.28</td>
+    <td class="xl69" x:num="76.469999999999999">76.47</td>
+    <td class="xl69" x:num="83.379999999999995">83.38</td>
+    <td class="xl69" x:num="76.450000000000003">76.45</td>
+    <td class="xl67" x:num="72.540000000000006">72.54</td>
+    <td class="xl69" x:num="70.629999999999995">70.63</td>
+    <td class="xl69" x:num="71.569999999999993">71.57</td>
    </tr>
   </tbody></table>
   
