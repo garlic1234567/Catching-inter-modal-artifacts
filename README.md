@@ -11,7 +11,7 @@ We conduct experiments on the following datasets:
 2. DGM4 Dataset: Used to validate the cross-modal generalizability of the proposed BRM and DFFM modules. All the configurations are the same to [HAMMER](https://github.com/rshaojimmy/MultiModal-DeepFake).
 
 ## Reproduction on DGM4
-In the [reproduction](./reproduction) folder, we provide the implementation for replicating the experimental results of CLIP, ViLT, and HAMMER on the DGM4 dataset, as reported in our paper.
+In the [reproduction](./reproduction) folder, we provide the implementation for replicating the experimental results of CLIP, ViLT, and HAMMER on the DGM4 dataset, as reported in our paper. You can download the corresponding checkpoints from the link provided in the table below.
 
 <table width="722.00" border="0" cellpadding="0" cellspacing="0" style="width:433.20pt;border-collapse:collapse;table-layout:fixed;">
    <colgroup>
