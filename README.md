@@ -67,7 +67,7 @@ In the [reproduction](./reproduction) folder, we provide the implementation for 
       </tr>
    <tr height="25.25" style="height:15.15pt;">
     <td class="xl66" height="25.25" style="height:15.15pt;" x:str="">ViLT</td>
-    <td class="xl66"></td>
+    <td class="xl66" x:str=""><a href="https://1drv.ms/u/c/39d9599dfa883d20/EQRiPCwFQNlFnrFZTuAFmRUBlKRotZ3ZwtReaW7OUMlg8w" style="text-decoration:none; margin:0; padding:0;">ckpt</a></td>
     <td class="xl67" x:num="">85.73</td>
     <td class="xl67" x:num="">22.41</td>
     <td class="xl67" x:num="">79.04</td>
@@ -83,7 +83,7 @@ In the [reproduction](./reproduction) folder, we provide the implementation for 
    </tr>
    <tr height="25.25" style="height:15.15pt;">
     <td class="xl66" height="25.25" style="height:15.15pt;" x:str="">HAMMER</td>
-    <td class="xl66"></td>
+    <td class="xl66" x:str=""><a href="https://1drv.ms/u/c/39d9599dfa883d20/EWprt6jbijtJo0Cn8o3PkhUBnfOvFi0zTgnSyvQE07Gb7Q" style="text-decoration:none; margin:0; padding:0;">ckpt</a></td>
     <td class="xl67" x:num="">90.62</td>
     <td class="xl67" x:num="">17.11</td>
     <td class="xl67" x:num="">84.18</td>
