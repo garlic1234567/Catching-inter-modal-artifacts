@@ -53,17 +53,17 @@ In the [reproduction](./reproduction) folder, we provide the implementation for 
          <td class="xl66" height="25.25" style="height:15.15pt;" x:str="">CLIP</td>
          <td class="xl66" x:str=""><a href="https://1drv.ms/u/c/39d9599dfa883d20/EaaEobf2eGdOvBky9Px3V1MBuwa7oeVlbg3XCQDrzb62cA" style="text-decoration:none; margin:0; padding:0;">ckpt</a></td>
          <td class="xl67" x:num="">78.33</td>
-         <td class="xl67" x:num="">29.3</td>
+         <td class="xl67" x:num="">29.30</td>
          <td class="xl67" x:num="">72.03</td>
-         <td class="xl67" x:num="62.469999999999999">62.5</td>
-         <td class="xl67" x:num="54.909999999999997">54.9</td>
-         <td class="xl67" x:num="55.060000000000002">55.1</td>
-         <td class="xl67" x:num="44.579999999999998">44.6</td>
-         <td class="xl67" x:num="44.520000000000003">44.5</td>
-         <td class="xl67" x:num="44.509999999999998">44.5</td>
+         <td class="xl67" x:num="62.47">62.5</td>
+         <td class="xl67" x:num="54.91">54.9</td>
+         <td class="xl67" x:num="55.06">55.1</td>
+         <td class="xl67" x:num="44.58">44.6</td>
+         <td class="xl67" x:num="44.52">44.5</td>
+         <td class="xl67" x:num="44.51">44.5</td>
          <td class="xl67" x:num="56.68">56.7</td>
-         <td class="xl67" x:num="31.170000000000002">31.2</td>
-         <td class="xl67" x:num="40.219999999999999">40.2</td>
+         <td class="xl67" x:num="31.17">31.2</td>
+         <td class="xl67" x:num="40.22">40.2</td>
       </tr>
    <tr height="25.25" style="height:15.15pt;">
     <td class="xl66" height="25.25" style="height:15.15pt;" x:str="">ViLT</td>
