@@ -11,7 +11,7 @@ We conduct experiments on the following datasets:
 2. DGM4 Dataset: Used to validate the cross-modal generalizability of the proposed BRM and DFFM modules. All the configurations are the same to [HAMMER](https://github.com/rshaojimmy/MultiModal-DeepFake).
 
 ## Reproduction on DGM4
-In the [reproduction](./reproduction) folder, we provide the implementation for replicating the experimental results of CLIP, ViLT, and HAMMER on the DGM4 dataset, as reported in our paper. You can download the corresponding checkpoints from the link provided in the table below.
+In the [reproduction](./reproduction) folder, we provide the implementation for replicating the experimental results of CLIP, ViLT, and HAMMER on the DGM4 dataset, as reported in our paper. We will release all the checkpoints once our papar is accepted. Then you can download the corresponding checkpoints from the link provided in the table below.
 
 <table width="722.00" border="0" cellpadding="0" cellspacing="0" style="width:433.20pt;border-collapse:collapse;table-layout:fixed;">
    <colgroup>
@@ -51,7 +51,7 @@ In the [reproduction](./reproduction) folder, we provide the implementation for 
       </tr>
       <tr height="25.25" style="height:15.15pt;">
          <td class="xl66" height="25.25" style="height:15.15pt;" x:str="">CLIP</td>
-         <td class="xl66" x:str=""><a href="https://1drv.ms/u/c/39d9599dfa883d20/EaaEobf2eGdOvBky9Px3V1MBuwa7oeVlbg3XCQDrzb62cA" style="text-decoration:none; margin:0; padding:0;">ckpt</a></td>
+         <td class="xl66" x:str="">
          <td class="xl67" x:num="">78.33</td>
          <td class="xl67" x:num="">29.30</td>
          <td class="xl67" x:num="">72.03</td>
@@ -67,7 +67,7 @@ In the [reproduction](./reproduction) folder, we provide the implementation for 
       </tr>
    <tr height="25.25" style="height:15.15pt;">
     <td class="xl66" height="25.25" style="height:15.15pt;" x:str="">ViLT</td>
-    <td class="xl66" x:str=""><a href="https://1drv.ms/u/c/39d9599dfa883d20/EQRiPCwFQNlFnrFZTuAFmRUBlKRotZ3ZwtReaW7OUMlg8w" style="text-decoration:none; margin:0; padding:0;">ckpt</a></td>
+    <td class="xl66" x:str="">
     <td class="xl67" x:num="">85.73</td>
     <td class="xl67" x:num="">22.41</td>
     <td class="xl67" x:num="">79.04</td>
@@ -83,7 +83,7 @@ In the [reproduction](./reproduction) folder, we provide the implementation for 
    </tr>
    <tr height="25.25" style="height:15.15pt;">
     <td class="xl66" height="25.25" style="height:15.15pt;" x:str="">HAMMER</td>
-    <td class="xl66" x:str=""><a href="https://1drv.ms/u/c/39d9599dfa883d20/EWprt6jbijtJo0Cn8o3PkhUBnfOvFi0zTgnSyvQE07Gb7Q" style="text-decoration:none; margin:0; padding:0;">ckpt</a></td>
+    <td class="xl66" x:str="">
     <td class="xl67" x:num="">90.62</td>
     <td class="xl67" x:num="">17.11</td>
     <td class="xl67" x:num="">84.18</td>
